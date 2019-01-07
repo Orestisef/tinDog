@@ -132,3 +132,48 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* Call to Action */
+#cta {
+  background-color:  #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.mybuttons {
+  margin-top: 5%;
+}
+
+.mycta {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Footer*/
+#footer {
+  background-color: #fff;
+  text-align: center;
+    margin: 10% 0 5%;
+
+}
+
+.footer-contacts {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    font-weight: 400;
+
+  }
+}
